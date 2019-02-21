@@ -16406,3 +16406,10 @@ body {
   color: inherit;
 }
 
+/* User register page */
+
+.register-page img.captcha {
+  cursor: pointer;
+  border-radius: 4px;
+}
+
