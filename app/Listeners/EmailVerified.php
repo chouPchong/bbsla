@@ -4,7 +4,8 @@ namespace App\Listeners;
 
 use Illuminate\Auth\Events\Verified;
 
-class EmailVerified {
+class EmailVerified
+{
 	/**
 	 * Create the event listener.
 	 *

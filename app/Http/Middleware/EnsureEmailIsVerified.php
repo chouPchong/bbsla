@@ -4,7 +4,8 @@ namespace App\Http\Middleware;
 
 use Closure;
 
-class EnsureEmailIsVerified {
+class EnsureEmailIsVerified
+{
 	/**
 	 * Handle an incoming request.
 	 *

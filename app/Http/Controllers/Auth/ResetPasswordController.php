@@ -6,7 +6,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 use Illuminate\Http\Request;
 
-class ResetPasswordController extends Controller {
+class ResetPasswordController extends Controller
+{
 	use ResetsPasswords;
 
 	protected $redirectTo = '/';
